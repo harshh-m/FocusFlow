@@ -1,7 +1,7 @@
 import React from "react";
 
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
   useLocation,
@@ -142,9 +142,9 @@ function Layout() {
 export default function App() {
   return (
     <AppProvider>
-      <BrowserRouter>
+      <HashRouter>
         <Layout />
-      </BrowserRouter>
+      </HashRouter>
     </AppProvider>
   );
 }
